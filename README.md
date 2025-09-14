@@ -68,7 +68,7 @@ This produces output files in newly generated directories. The outputs include .
 
   Example 2: Batch Run
 
-  It is more convenient to use run_batch.py, which allows running multiple simulations for different values of β at once.
+  It is more convenient to use run_batch.py, which allows running multiple simulations for different values of β and different potential at once.
 
   Before execution, set the potential parameters in run_batch.py. Then run:
 
