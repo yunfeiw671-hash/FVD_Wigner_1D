@@ -96,17 +96,17 @@ Running this script yields the dependence of decay rates on the inverse temperat
 
 Other scripts are provided for analyzing quantities such as field evolution, spectra, and wave functions. These scripts are intended as reference implementations and can be flexibly adapted to specific research needs.
 
-Citation
+Citation:
 
 If you use this code in your research, please cite: arxiv:https://arxiv.org/abs/2506.18334
 
-Author：Haiyang Wang
+Author: Haiyang Wang
 
-Contact：20242701005@stu.cqu.edu.cn
+Contact: 20242701005@stu.cqu.edu.cn
 
-Institution：College of Physics, Chongqing University
+Institution: College of Physics, Chongqing University
 
-License：
+License:
 
 This project is released under the MIT License.
 
