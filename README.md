@@ -8,29 +8,29 @@ The code implements a real-time approach based on the Wigner function to study t
 
 Features:
 
-1.Simulation of scalar field dynamics in 1D with periodic boundary conditions.
-2.Initialization of fields from a Bose–Einstein distributed power spectrum.
-3.Real-time evolution of the Wigner function via the classical Liouville equation.
-4.Leapfrog algorithm for stable numerical integration.
-5.Estimation of the false vacuum decay rate from probability distributions.
+  1.Simulation of scalar field dynamics in 1D with periodic boundary conditions.
+  2.Initialization of fields from a Bose–Einstein distributed power spectrum.
+  3.Real-time evolution of the Wigner function via the classical Liouville equation.
+  4.Leapfrog algorithm for stable numerical integration.
+  5.Estimation of the false vacuum decay rate from probability distributions.
 
 Requirements：
 
-Python >= 3.9
-numpy
-matplotlib
-numba
-plotly
-mpmath
-scipy
+  Python >= 3.9
+  numpy
+  matplotlib
+  numba
+  plotly
+  mpmath
+  scipy
 
 Installation：
 
 Clone the repository:
 
-git clone https://github.com/yunfeiw671-hash/FVD_Wigner_1D.git
+  git clone https://github.com/yunfeiw671-hash/FVD_Wigner_1D.git
 
-cd false-vacuum-decay
+  cd false-vacuum-decay
 
 Install the required dependencies
 
