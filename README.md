@@ -15,6 +15,7 @@ Features:
 5.Estimation of the false vacuum decay rate from probability distributions.
 
 Requirements：
+
 Python >= 3.9
 numpy
 matplotlib
