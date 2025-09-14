@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import os
+#在运行extract_gamma.py得到输出数据后，运行此程序得到fit的情况
 # 1. 读取数据
 file_path = r"E:\Some_Documents\research\test_results\1D\test5_new_edition\meff=1.6\W_dx\Ns=1000\fix_meff\redefine_RFV\Wigner=e^-betaH\Nx=1024_dx=0.25\positive_dt\dt=0.01\fix_initial\gamma_vs_beta.txt"
 df = pd.read_csv(file_path, sep='\t')
