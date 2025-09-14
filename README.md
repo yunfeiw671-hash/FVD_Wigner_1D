@@ -2,6 +2,7 @@
 
 Overview
 This repository contains the numerical code used in the paper: “Numerical simulation of the false vacuum decay at finite temperature” (arxiv:https://arxiv.org/abs/2506.18334)
+
 The code implements a real-time approach based on the Wigner function to study the false vacuum decay of a scalar field with interactions. The framework allows one to compute the probability of remaining in the false vacuum and extract the decay rate. The method avoids direct evaluation of the path integral and can be naturally extended to finite temperature.
 
 Features
