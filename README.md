@@ -22,13 +22,13 @@ FVD_Wigner_1D/
 │   └── run_batch.py          # batch execution
 └── data_treating/
     ├── extract_gamma.py      # extract decay rate
-    ├── fit_gamma.py          # fit decay rate vs β
+    ├── fit_gamma.py          # fit decay rate vs β and Vb
     ├── field_evolution.py    # analyze field evolution
-    ├── inital_compare.py     # compare initial conditions
+    ├── inital_compare.py     # compare certain quantities under different initial conditions
     ├── plot_pfv_ave_phi.py   # plot probability & average field
     ├── plot_wave_function.py # visualize wave functions
-    ├── spectrum_average.py   # average spectrum
-    └── spectrum_evolution.py # spectrum time evolution
+    ├── spectrum_average.py   # average power spectrum
+    └── spectrum_evolution.py # power spectrum time evolution
 
 Requirements：
 
@@ -96,11 +96,19 @@ Running this script yields the dependence of decay rates on the inverse temperat
 
 Other scripts are provided for analyzing quantities such as field evolution, spectra, and wave functions. These scripts are intended as reference implementations and can be flexibly adapted to specific research needs.
 
+Citation
 
+If you use this code in your research, please cite: arxiv:https://arxiv.org/abs/2506.18334
 
+Author：Haiyang Wang
 
+Contact：20242701005@stu.cqu.edu.cn
 
+Institution：College of Physics, Chongqing University
 
+License：
+
+This project is released under the MIT License.
 
 
 
