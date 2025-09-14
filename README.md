@@ -62,7 +62,7 @@ The main script FVD_wigner_1D.py simulates the false vacuum decay in one dimensi
 
   Example 1: Single Run
 
-    python FVD_wigner_1D.py --a 0.8 --b -1.84 --c 0.98 --beta 2.6
+    python FVD_wigner_1D.py --a 0.8 --b -1.84 --c 0.98 --betas 2.6
 
 This produces output files in newly generated directories. The outputs include .txt data files and .png figures (the exact outputs can be configured by commenting/uncommenting the relevant parts in the script).The main quantity of interest is stored in gamma_values.txt.
 
