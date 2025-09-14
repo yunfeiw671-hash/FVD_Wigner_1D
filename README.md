@@ -14,6 +14,22 @@ Features:
   4.Leapfrog algorithm for stable numerical integration.
   5.Estimation of the false vacuum decay rate from probability distributions.
 
+Project Structure：
+
+FVD_Wigner_1D/
+├── main/
+│   ├── FVD_wigner_1D.py      # main simulation script
+│   └── run_batch.py          # batch execution
+└── data_treating/
+    ├── extract_gamma.py      # extract decay rate
+    ├── fit_gamma.py          # fit decay rate vs β
+    ├── field_evolution.py    # analyze field evolution
+    ├── inital_compare.py     # compare initial conditions
+    ├── plot_pfv_ave_phi.py   # plot probability & average field
+    ├── plot_wave_function.py # visualize wave functions
+    ├── spectrum_average.py   # average spectrum
+    └── spectrum_evolution.py # spectrum time evolution
+
 Requirements：
 
   Python >= 3.9
