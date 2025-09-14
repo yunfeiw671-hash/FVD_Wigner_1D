@@ -2,7 +2,7 @@ import os
 import shutil
 import subprocess
 import argparse
-#使用时命令行输入：python run_batch.py --betas 0.6 0.8 1.0 1.2
+#自动遍历不同初始条件运行FVD_wigner_1D.py的脚本，使用时命令行输入：python run_batch.py --betas 0.6 0.8 1.0 1.2
 
 # 预定义的[a,b,c,d]参数组合列表 V = a*phi^2 + b*phi^3 + c*phi^4, d为deltaV，即两个真空的势能差值
 V_param_combinations = [
